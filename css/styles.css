@@ -1,0 +1,60 @@
+body {
+  background-color: #ffffff;
+  font-family: "Roboto";
+}
+/* Цвет логотипа */
+.logo {
+  color: #000000;
+}
+.logo:hover {
+  color: #2196f3;
+}
+span {
+  color: #2196f3;
+}
+/* ссылки без подчеркивания */
+a {
+  text-decoration: none;
+  color: #212121;
+}
+a:hover {
+  color: #2196f3;
+}
+
+ul {
+  list-style: none;
+}
+/* Навигация и автор */
+.site-nav .auto-nav {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+}
+/* Заголовок 1   */
+h1 {
+  color: green;
+  /* color: #ffffff; */
+  font-family: 'Roboto';
+  font-style: ;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+h2 h3 {
+  color: #212121;
+}
+p {
+  color: #757575;
+}
+
+/* заголовки 212121
+текст абзацов 757575
+акцент 2196F3
+footer studio + h1 ffffff
+  */ */
