@@ -1,7 +1,7 @@
 body {
   background-color: #ffffff;
   color: #757575;
-  font-family: "Roboto";
+  font-family: 'Roboto';
 }
 /* Цвет логотипа */
 .logo {
@@ -23,7 +23,7 @@ a:hover,
 a:focus {
   color: #2196f3;
 }
-
+/* Список без маркеров */
 ul {
   list-style: none;
 }
@@ -45,16 +45,40 @@ h1 {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
-
+/* Цвет заголовков h2, h3 */
 .title {
   color: #212121;
 }
-/* p {
-  color: #757575;
-} */
+/* Курсор кнопки */
+button {
+  cursor: pointer;
+}
+/* Кнопка Заказать услугу */
+.button-order {
+  background-color: #2196f3;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  display: flex;
+  letter-spacing: 0.06em;
+}
 
-/* заголовки 212121
-текст абзацов 757575
-акцент 2196F3
-footer studio + h1 ffffff
-  */ */
+.button-order:hover,
+.button-order:focus {
+  opacity: 0.5;
+}
+/* Кнопки фильтра */
+.button-filtr {
+  color: #212121;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+}
+.button-filtr:hover,
+.button-filtr:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
