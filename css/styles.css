@@ -1,18 +1,23 @@
+:root {
+  --acsent-color: #2196f3;
+}
 body {
   background-color: #ffffff;
   color: #757575;
   font-family: 'Roboto';
+  font-family: sans-serif;
 }
+
 /* Цвет логотипа */
 .logo {
   color: #000000;
 }
 .logo:hover,
 .logo:focus {
-  color: #2196f3;
+  color: var(--acsent-color);
 }
 span {
-  color: #2196f3;
+  color: var(--acsent-color);
 }
 /* ссылки без подчеркивания */
 a {
@@ -21,7 +26,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: #2196f3;
+  color: var(--acsent-color);
 }
 /* Список без маркеров */
 ul {
@@ -81,4 +86,25 @@ button {
 .button-filtr:focus {
   background-color: #2196f3;
   color: #ffffff;
+}
+.footer {
+  background-color: #2f303a;
+  color: #ffffff;
+}
+.logo-foot {
+  color: #ffffff;
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+}
+.link-map {
+  color: #ffffff;
+}
+
+.contacts {
+  color: #ffffff99;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
 }
