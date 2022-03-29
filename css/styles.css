@@ -1,5 +1,6 @@
 body {
   background-color: #ffffff;
+  color: #757575;
   font-family: "Roboto";
 }
 /* Цвет логотипа */
@@ -28,7 +29,6 @@ ul {
 }
 /* Навигация и автор */
 .site-nav .auto-nav {
-  font-family: 'Roboto';
   font-size: 14px;
   font-weight: 500;
   line-height: 1.1;
@@ -38,8 +38,6 @@ ul {
 h1 {
   color: green;
   /* color: #ffffff; */
-  font-family: 'Roboto';
-  font-style: ;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
@@ -48,12 +46,12 @@ h1 {
   text-transform: uppercase;
 }
 
-h2 h3 {
+.title {
   color: #212121;
 }
-p {
+/* p {
   color: #757575;
-}
+} */
 
 /* заголовки 212121
 текст абзацов 757575
