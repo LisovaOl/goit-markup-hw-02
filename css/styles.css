@@ -11,6 +11,11 @@ body {
 /* Цвет логотипа */
 .logo {
   color: #000000;
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 .logo:hover,
 .logo:focus {
@@ -40,9 +45,11 @@ ul {
   letter-spacing: 0.02em;
 }
 /* Заголовок 1   */
+.order-type {
+  background-color: #2f303a;
+}
 h1 {
-  color: green;
-  /* color: #ffffff; */
+  color: #ffffff;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
@@ -87,17 +94,19 @@ button {
   background-color: #2196f3;
   color: #ffffff;
 }
+/* Footer */
 .footer {
   background-color: #2f303a;
-  color: #ffffff;
 }
 .logo-foot {
   color: #ffffff;
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
+  line-height: 1.2;
   letter-spacing: 0.03em;
 }
+/* Адрес - карта */
 .link-map {
   color: #ffffff;
 }
