@@ -21,21 +21,14 @@ body {
 .logo:focus {
   color: var(--acsent-color);
 }
-/* ссылки без подчеркивания */
-/* a {
-  text-decoration: none;
-  color: #212121;
-}
-a:hover,
-a:focus {
-  color: var(--acsent-color);
-} */
 
-/* Навигация и автор
+/* Навигация  */
 .nav-items {
-  text-decoration: none;
+  list-style: none;
+  
 }
-.nav-link .auto-nav {
+.nav-items-link{
+  text-decoration: none;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
@@ -43,8 +36,29 @@ a:focus {
   line-height: 1.1;
   letter-spacing: 0.02em;
   color: #212121;
+}
+.nav-items-link:hover,
+.nav-items-link:focus{
+  color: var(--acsent-color);
+}
+.autor{
+  list-style: none;
+}
+.autor-link{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: #757575;
   text-decoration: none;
-} */
+}
+.autor-link:hover,
+.autor-link:focus{
+  color: var(--acsent-color);
+}
+  
 /* Блок решения 
 с кнопкой заказать услугу   */
 .order-type {
@@ -61,6 +75,8 @@ a:focus {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
+  background-color: #2f303a;
+
 }
 /* Кнопка Заказать услугу */
 .button-order {
@@ -83,13 +99,78 @@ a:focus {
   opacity: 0.5;
 }
 /* Properties - Особенности */
+.properties{
+  list-style: none;
+}
+.properties-title{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+.properties-text{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
 
+}
+/* Чем мы занимаемся */
+.work-title{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.work-items{
+  list-style: none;
+}
 
-
-
-
-
-
+/* Наша команда */
+.our-team{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.our-team-items{
+  list-style: none;
+}
+.our-team-title{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  /* text-align: center; */
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.our-team-text{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  /* text-align: center; */
+  letter-spacing: 0.03em;
+  color: #757575;
+}
 /* Галерея */
 /* Список без маркеров */
 .gallery {
@@ -137,6 +218,7 @@ a:focus {
 /* Footer */
 .footer {
   background-color: #2f303a;
+  
 }
 .logo-foot {
   color: #ffffff;
@@ -145,15 +227,41 @@ a:focus {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.logo-foot:hover,
+.logo-foot:focus{
+  color: var(--acsent-color);
+}
+.footer-list{
+  list-style: none;
 }
 /* Адрес - карта */
 .link-map {
-  color: #ffffff;
+  text-decoration: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
 }
 
 .contacts {
-  color: #ffffff99;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
   font-size: 14px;
-  line-height: 1.7;
+  line-height: 1.71;
   letter-spacing: 0.03em;
+  color: #ffffff99;
+  text-decoration: none;
+
+}
+.link-map:hover,
+.link-map:focus,
+.contacts:hover,
+.contacts:focus{
+  color: var(--acsent-color);
 }
