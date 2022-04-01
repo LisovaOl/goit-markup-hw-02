@@ -4,8 +4,7 @@
 body {
   background-color: #ffffff;
   color: #757575;
-  font-family: 'Roboto';
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* Цвет логотипа */
@@ -16,78 +15,110 @@ body {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
 .logo:hover,
 .logo:focus {
   color: var(--acsent-color);
 }
-span {
-  color: var(--acsent-color);
-}
 /* ссылки без подчеркивания */
-a {
+/* a {
   text-decoration: none;
   color: #212121;
 }
 a:hover,
 a:focus {
   color: var(--acsent-color);
+} */
+
+/* Навигация и автор
+.nav-items {
+  text-decoration: none;
 }
-/* Список без маркеров */
-ul {
-  list-style: none;
-}
-/* Навигация и автор */
-.site-nav .auto-nav {
-  font-size: 14px;
+.nav-link .auto-nav {
+  font-family: 'Roboto';
+  font-style: normal;
   font-weight: 500;
+  font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
-}
+  color: #212121;
+  text-decoration: none;
+} */
 /* Заголовок 1   */
 .order-type {
   background-color: #2f303a;
 }
-h1 {
-  color: #ffffff;
+
+.order-title {
+  font-family: 'Roboto';
+  font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.4;
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-}
-/* Цвет заголовков h2, h3 */
-.title {
-  color: #212121;
-}
-/* Курсор кнопки */
-button {
-  cursor: pointer;
+  color: #ffffff;
 }
 /* Кнопка Заказать услугу */
 .button-order {
-  background-color: #2196f3;
-  color: #ffffff;
+  font-family: 'Roboto';
+  font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.8;
+  line-height: 1.88;
   display: flex;
+  align-items: center;
+  text-align: center;
   letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: #2196f3;
+  cursor: pointer;
 }
 
 .button-order:hover,
 .button-order:focus {
   opacity: 0.5;
 }
-/* Кнопки фильтра */
-.button-filtr {
+/* Галерея */
+/* Список без маркеров */
+.gallery {
+  list-style: none;
+}
+.gallery-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
   color: #212121;
+}
+.gallery-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* Кнопки фильтра */
+.button-items {
+  list-style: none;
+}
+.button-filtr {
+  font-family: 'Roboto';
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
+  line-height: 1.62;
   text-align: center;
-  line-height: 1.6;
   letter-spacing: 0.03em;
+  color: #212121;
+  cursor: pointer;
 }
 .button-filtr:hover,
 .button-filtr:focus {
