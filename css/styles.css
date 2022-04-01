@@ -45,7 +45,8 @@ a:focus {
   color: #212121;
   text-decoration: none;
 } */
-/* Заголовок 1   */
+/* Блок решения 
+с кнопкой заказать услугу   */
 .order-type {
   background-color: #2f303a;
 }
@@ -81,6 +82,14 @@ a:focus {
 .button-order:focus {
   opacity: 0.5;
 }
+/* Properties - Особенности */
+
+
+
+
+
+
+
 /* Галерея */
 /* Список без маркеров */
 .gallery {
