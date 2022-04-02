@@ -133,6 +133,9 @@ body {
 }
 
 /* Наша команда */
+.our-team{
+  background-color: #F5F4FA;
+}
 .our-team-items{
   list-style: none;
 }
