@@ -3,6 +3,11 @@
   --title-color: #212121;
   --link-color: #212121;
   --text-color: #757575;
+  --button-background: #2196f3;
+  --button-filtr-color: #212121;
+  --team-background: #F5F4FA;
+  --footer-background: #2f303a;
+
 }
 body {
   background-color: #ffffff;
@@ -33,8 +38,7 @@ body {
   
 }
 .nav-items-link,
-.autor-link{
-  font-family: 'Roboto';
+.author-link{
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
@@ -44,18 +48,18 @@ body {
 }
 .nav-items-link:hover,
 .nav-items-link:focus,
-.autor-link:hover,
-.autor-link:focus{
+.author-link:hover,
+.author-link:focus{
   color: var(--acsent-color);
 }
 /* Эффект текущей страницы */
 .nav-items .current{
   color: var(--acsent-color);
 }
-.autor{
+.author{
   list-style: none;
 }
-.autor-link{
+.author-link{
   color: #757575;
 }
   
@@ -66,7 +70,6 @@ body {
 }
 
 .order-title {
-  font-family: 'Roboto';
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -79,7 +82,7 @@ body {
 }
 /* Кнопка Заказать услугу */
 .button-order {
-  font-family: 'Roboto';
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -88,7 +91,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
-  background-color: #2196f3;
+  background-color: var(--button-background);
   cursor: pointer;
 }
 
@@ -101,7 +104,6 @@ body {
   list-style: none;
 }
 .properties-title{
-  font-family: 'Roboto';
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1;
@@ -110,7 +112,6 @@ body {
   color: var(--link-color);
 }
 .properties-text{
-  font-family: 'Roboto';
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -120,7 +121,6 @@ body {
 /* Чем мы занимаемся */
 .work-title,
 .our-team-title{
-  font-family: 'Roboto';
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -134,13 +134,12 @@ body {
 
 /* Наша команда */
 .our-team{
-  background-color: #F5F4FA;
+  background-color: var(--team-background);
 }
 .our-team-items{
   list-style: none;
 }
 .our-team-name{
-  font-family: 'Roboto';
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
@@ -149,7 +148,6 @@ body {
   color: var(--title-color);
 }
 .our-team-post{
-  font-family: 'Roboto';
   font-size: 16px;
   line-height: 1.2;
   /* text-align: center; */
@@ -162,7 +160,6 @@ body {
   list-style: none;
 }
 .gallery-title {
-  font-family: 'Roboto';
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -170,7 +167,6 @@ body {
   color: var(--title-color);
 }
 .gallery-text {
-  font-family: 'Roboto';
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
@@ -182,23 +178,23 @@ body {
   list-style: none;
 }
 .button-filtr {
-  font-family: 'Roboto';
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--button-filtr-color);
   cursor: pointer;
 }
 .button-filtr:hover,
 .button-filtr:focus {
-  background-color: #2196f3;
+  background-color: var(--button-background);
   color: #ffffff;
 }
 /* Footer */
 .footer {
-  background-color: #2f303a;
+  background-color: var(--footer-background);
   
 }
 .logo-foot {
@@ -220,7 +216,7 @@ body {
 /* Адрес - карта */
 .link-map,
 .contacts {
-  font-family: 'Roboto';
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
