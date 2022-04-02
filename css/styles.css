@@ -35,7 +35,6 @@ body {
 .nav-items-link,
 .autor-link{
   font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
@@ -68,7 +67,6 @@ body {
 
 .order-title {
   font-family: 'Roboto';
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -82,7 +80,6 @@ body {
 /* Кнопка Заказать услугу */
 .button-order {
   font-family: 'Roboto';
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -97,7 +94,7 @@ body {
 
 .button-order:hover,
 .button-order:focus {
-  opacity: 0.5;
+  background-color: #188CE8;
 }
 /* Properties - Особенности */
 .properties{
@@ -105,7 +102,6 @@ body {
 }
 .properties-title{
   font-family: 'Roboto';
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1;
@@ -115,7 +111,6 @@ body {
 }
 .properties-text{
   font-family: 'Roboto';
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -127,7 +122,6 @@ body {
 .work-title,
 .our-team-title{
   font-family: 'Roboto';
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -145,7 +139,6 @@ body {
 }
 .our-team-name{
   font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
@@ -155,7 +148,6 @@ body {
 }
 .our-team-post{
   font-family: 'Roboto';
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
@@ -170,7 +162,6 @@ body {
 }
 .gallery-title {
   font-family: 'Roboto';
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -179,7 +170,6 @@ body {
 }
 .gallery-text {
   font-family: 'Roboto';
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
@@ -193,7 +183,6 @@ body {
 }
 .button-filtr {
   font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -232,7 +221,6 @@ body {
 .link-map,
 .contacts {
   font-family: 'Roboto';
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
