@@ -21,7 +21,9 @@ body {
 .logo:focus {
   color: var(--acsent-color);
 }
-
+.logo-web{
+  color: var(--acsent-color);
+}
 /* Навигация  */
 .nav-items {
   list-style: none;
