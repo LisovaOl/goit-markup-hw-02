@@ -49,6 +49,10 @@ body {
 .autor-link:focus{
   color: var(--acsent-color);
 }
+/* Эффект текущей страницы */
+.nav-items .current{
+  color: var(--acsent-color);
+}
 .autor{
   list-style: none;
 }
